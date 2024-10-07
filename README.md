@@ -23,7 +23,7 @@ Pour installer l'application sur votre machine :
 
 1. Clonez le dépôt :
 
-   git clone https://github.com/votre-utilisateur/pizza-recipe-app.git
+   git clone https://github.com/fatikhalil/PizzaRecipes.git
 ## Installation
 
 1. Ouvrez le projet dans Android Studio.
