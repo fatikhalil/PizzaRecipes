@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ImageView pour l'image de la pizza -->
+        <ImageView
+            android:id="@+id/pizzaImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pizza1"
+            />
+
+        <!-- TextView pour le titre de la description -->
+        <TextView
+            android:id="@+id/titleDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+
+        <!-- TextView pour afficher la description de la pizza -->
+        <TextView
+            android:id="@+id/pizzaDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <!-- TextView pour le titre des ingrédients -->
+        <TextView
+            android:id="@+id/titleIngredientsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ingredients"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+
+        <!-- TextView pour afficher la liste des ingrédients -->
+        <TextView
+            android:id="@+id/pizzaIngredientsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ingredients"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <!-- TextView pour le titre de la recette -->
+        <TextView
+            android:id="@+id/titleRecipeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="recipe"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+
+        <!-- TextView pour afficher la recette de la pizza -->
+        <TextView
+            android:id="@+id/pizzaRecipeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recette"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>

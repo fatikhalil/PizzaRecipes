@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_error">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/viewPizzasTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="                                          Pizza Recipes                                             Make you pizza"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/viewPizzasButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B00020" />
+
+    <!-- Remplacez par le nom de votre logo -->
+
+</LinearLayout>
